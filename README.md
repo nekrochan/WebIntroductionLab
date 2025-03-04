@@ -70,25 +70,6 @@
 - Используйте p теги для текста
 - Используйте тег img для изображения
 
-### Код страницы
-`<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Single Article Page</title>
-</head>
-<body>
-<article>
-    <h2>Egyptian Mau</h2>
-    <h4>Egyptian Maus are a small- to medium-sized short-haired cat breed.</h4>
-    <p>Along with the Bahraini Dilmun cat, they are one of the few naturally spotted breeds of domesticated cat. The spots of the Mau occur on only the tips of the hairs of its coat. It is considered to be a rare breed.</p>
-    <p>The breed conformation is described as "a balance between the compactness of a Burmese and the slim elegance of a Siamese. Its medium-length body is muscular, with the hind legs longer than the front, giving the Mau the appearance of standing on tiptoes when upright."</p>
-    <img src="cat.jpg" width="500" alt="Egyptian Mau Photo">
-</article>
-
-</body>
-</html>`
-
 ### Демонстрация работы
 ![image](https://github.com/user-attachments/assets/b3ebdca0-81bd-48b3-9d31-06d9b1530ee1)
 
@@ -100,40 +81,6 @@
 - Добавьте четыре элемента списка (Используйте  ol  reversed  для  упорядоченного  реверсированного списка);
 - Добавьте три элемента списка.
 
-### Код страницы
-`<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Lists</title>
-</head>
-<body>
-<div>
-    <article>
-        <h2>HTML Unordered list</h2>
-        <ul>
-            <li>Hyper is the opposite of linear. It used to be that computer programs had to move in a linear fashion. This before this, this before this, and so on. HTML does not hold to that pattern and allows the person viewing the World Wide Web page to go anywhere, any time they want.</li>
-
-            <li>Text is what you will use. Real, honest to goodness English letters.</li>
-
-            <li>Mark up is what you will do. You will write in plain English and then mark up what you wrote. More to come on that in the next Primer.</li>
-
-            <li>Language because they needed something that started with "L" to finish HTML and Hypertext Markup Louie didn't flow correctly. Because it's a language, really—but the language is plain English.</li>
-        </ul>
-    </article>
-    <article>
-        <h2>Reversed list</h2>
-        <ol reversed>
-            <li>Alt-text is not a description of an image, but a replacement for the image in case it is not displayed.</li>
-            <li>An ampersand character “&” must always be escaped like this: “&” – even in URLs.</li>
-            <li>Most presentation-based HTML tags are deprecated in recent versions of HTML.</li>
-        </ol>
-    </article>
-</div>
-
-</body>
-</html>`
-
 ### Демонстрация работы
 ![image](https://github.com/user-attachments/assets/9f5d9221-7a78-4e26-b8d0-3b84b81fc1f4)
 
@@ -142,53 +89,6 @@
 - Измените название документа на Nested Lists;
 - Используйте тег h2 для заголовка;
 - Используйте различные типы для упорядоченных и неупорядоченных списков (Смотрите скриншот и используйте различные атрибуты типа, такие как circle, disc и т.д.)
-
-### Код страницы
-`<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Nested Lists</title>
-</head>
-<body>
-<article>
-    <h2>Nested List</h2>
-    <ol type="I">
-        <li>HTML5</li>
-        <ol type="a">
-            <li>markup language</li>
-            <li>used for structuring and presenting content on the World Wide Web</li>
-        </ol>
-        <li>HTML Versions</li>
-        <ol>
-            <li>Development</li>
-            <li>HTML versions timeline</li>
-            <ul type="circle">
-                <li>HTML draft version timeline</li>
-                <li>XHTML versions</li>
-            </ul>
-            <li>Markup</li>
-        </ol>
-        <li>HTML5 Semantic Tags</li>
-        <ul type="disc">
-            <li>article</li>
-            <li>aside</li>
-            <li>details</li>
-            <li>figcaption</li>
-            <li>figure</li>
-            <li>footer</li>
-            <li>header</li>
-            <li>main</li>
-            <li>mark</li>
-            <li>nav</li>
-            <li>section</li>
-            <li>summary</li>
-            <li>time</li>
-        </ul>
-    </ol>
-</article>
-</body>
-</html>`
 
 ### Демонстрация работы
 ![image](https://github.com/user-attachments/assets/a2f96cdc-9cbc-4277-852a-d29df0aa9b3b)
@@ -201,40 +101,6 @@
 - Используйте тег tr для строк;
 - Используйте теги th и td для столбцов;
 - Используйте тег span со значением checked для проверенных элементов.
-### Код страницы
-`<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Tables</title>
-</head>
-<body>
-<h2>HTML Table</h2>
-<table>
-    <tr>
-        <th>Name</th><th>Self-Employed</th><th>Country</th>
-    </tr>
-    <tr>
-        <td>Alfreds Futterkiste</td><td><span>checked</span></td><td>Germany</td>
-    </tr>
-    <tr>
-        <td>Centro comercial Moctezuma</td><td></td><td>Mexico</td>
-    </tr>
-    <tr>
-        <td>Ernst Handel</td><td></td><td>Austria</td>
-    </tr>
-    <tr>
-        <td>Island Trading</td><td><span>checked</span></td><td>UK</td>
-    </tr>
-    <tr>
-        <td>Laughing Bacchus Winecellars</td><td><span>checked</span>></td><td>Canada</td>
-    </tr>
-    <tr>
-        <td>Magazzini Alimentari Riuniti</td><td></td><td>Italy</td>
-    </tr>
-</table>
-</body>
-</html>`
 
 ### Демонстрация работы
 ![image](https://github.com/user-attachments/assets/a43515b4-cf18-4ec6-8fe1-3bb9ee75c5ad)
